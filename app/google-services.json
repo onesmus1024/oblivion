@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "349333300584",
+    "firebase_url": "https://oblivion-fd8ec-default-rtdb.firebaseio.com",
+    "project_id": "oblivion-fd8ec",
+    "storage_bucket": "oblivion-fd8ec.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:349333300584:android:b084fff4b09eb581df22dd",
+        "android_client_info": {
+          "package_name": "com.example.oblivion"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "349333300584-kdn9o6acgp0u8iflu4oo0gl3o6mg9emg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.oblivion",
+            "certificate_hash": "0770e95f50f622b38c1f33cee8f794340dfe364f"
+          }
+        },
+        {
+          "client_id": "349333300584-ooij9vp41ren8ij46295r5rddbodqp8n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAD7le8o4gT9LP3XPln7BcUIXkd68LVtQI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "349333300584-4h9gffuk3tqlsfbjquv2uqti4f28supj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

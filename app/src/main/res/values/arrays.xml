@@ -1,0 +1,17 @@
+<resources>
+    <string-array name="allergies">
+        <item>Metals</item>
+        <item>dyes</item>
+        <item>fragrance</item>
+        <item>preservatives</item>
+        <item>none</item>
+    </string-array>
+    <string-array name="skin_tones">
+        <item>fair</item>
+        <item>light</item>
+        <item>light medium</item>
+        <item>medium</item>
+        <item>medium deep</item>
+        <item>deep</item>
+    </string-array>
+</resources>

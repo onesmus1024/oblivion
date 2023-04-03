@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SkinToneActivity">
+
+    <Spinner
+        android:id="@+id/skin_tone_spinner"
+        android:text="skintone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:spinnerMode="dropdown"
+        tools:ignore="HardcodedText" />
+
+    <Spinner
+        android:id="@+id/allergy_spinner"
+        android:text="allergy?"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/skin_tone_spinner"
+        android:layout_margin="16dp"
+        android:spinnerMode="dropdown"
+        tools:ignore="HardcodedText" />
+
+    <Spinner
+        android:id="@+id/skin_type_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/allergy_spinner"
+        android:layout_margin="16dp"
+        android:spinnerMode="dropdown"
+        android:text="Skin Type"
+        tools:ignore="HardcodedText" />
+
+    <Spinner
+        android:id="@+id/skin_sensitivity_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/skin_type_spinner"
+        android:layout_margin="16dp"
+        android:spinnerMode="dropdown"
+        android:text="Sensitivity"
+        tools:ignore="HardcodedText" />
+
+    <Spinner
+        android:id="@+id/skin_concerns_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/skin_sensitivity_spinner"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:spinnerMode="dropdown"
+        android:text="Skin Concerns"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/send_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/skin_concerns_spinner"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:text="Send"
+        tools:ignore="HardcodedText" />
+
+</RelativeLayout>

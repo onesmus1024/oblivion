@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".UserProfileActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="136dp"
+            android:text="PROFILE"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            app:fontFamily="@font/rozha_one" />
+
+        <TextView
+            android:id="@+id/tv_skin_concern"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="20dp"
+            android:text="Skin Concern: " />
+
+        <TextView
+            android:id="@+id/tv_allergy"
+            android:layout_marginLeft="70dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Allergy: " />
+
+        <TextView
+            android:id="@+id/tv_skin_sensitivity"
+            android:layout_marginLeft="70dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Skin Sensitivity: " />
+
+        <TextView
+            android:id="@+id/tv_skin_tone"
+            android:layout_marginLeft="70dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Skin Tone: " />
+
+        <TextView
+            android:id="@+id/tv_skin_type"
+            android:layout_marginLeft="70dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Skin Type: " />
+
+        <Button
+            android:id="@+id/button21"
+            android:layout_width="84dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="19dp"
+           android:layout_marginEnd="44dp"
+            android:background="#CD25FFEC"
+            android:text="Products"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="HardcodedText" />
+
+    </LinearLayout>
+
+</ScrollView>

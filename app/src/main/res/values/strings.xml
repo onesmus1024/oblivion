@@ -1,0 +1,188 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name" tools:ignore="DuplicateDefinition">Oblivion</string>
+    <string name="load">load</string>
+    <string name="username">Username</string>
+    <string name="name">Name</string>
+    <string name="password">Password</string>
+    <string name="signup">SIGNUP</string>
+    <string name="email">email</string>
+    <string name="todo">TODO</string>
+    <string name="todo2">TODO</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="background">login</string>
+
+
+    <string name="email_hint">Enter email</string>
+    <string name="skin_tones_label">Skin Tones:</string>
+    <string name="allergy_label">Allergy:</string>
+    <string name="skin_type_label">Skin Type:</string>
+    <string name="skin_sensitivity_label">Skin Sensitivity:</string>
+    <string name="skin_concern_label">Skin Concern:</string>
+    <string name="submit_button_label">Submit</string>
+
+    <string-array name="skin_tones_values">
+        <item>Fair</item>
+        <item>Light</item>
+        <item>Light-Medium</item>
+        <item>Medium</item>
+        <item>Medium-Deep</item>
+    </string-array>
+
+    <string-array name="allergy_values">
+        <item>Metals</item>
+        <item>Fragrance</item>
+        <item>Dyes</item>
+    </string-array>
+
+    <string-array name="skin_type_values">
+        <item>Oily</item>
+        <item>Normal</item>
+    </string-array>
+
+    <string-array name="skin_sensitivity_values">
+        <item>Sensitive</item>
+        <item>Resistant</item>
+        <item>Mild</item>
+    </string-array>
+
+    <string-array name="skin_concern_values">
+        <item>Acne</item>
+    </string-array>
+
+
+    <string name="image_url_1">gs://oblivion-fd8ec.appspot.com/Fenty/foundnation/deep/1.png</string>
+    <string name="image_url_2">https://example.com/images/image2.jpg</string>
+    <string name="image_url_3">https://example.com/images/image3.jpg</string>
+    <string name="image_url_4">https://example.com/images/image4.jpg</string>
+
+
+    <string name="loading">Loading</string>
+    <string name="error">Error</string>
+    <string name="action_settings">Settings</string>
+    <string name="preferences_title">Preferences</string>
+    <string name="preferences_category_general">General</string>
+    <string name="preferences_dark_theme">Dark Theme</string>
+    <string name="preferences_image_source">Image Source</string>
+    <string name="preferences_about">About</string>
+
+    <string name="label_email">Email:</string>
+    <string name="hint_email">Enter your email</string>
+
+    <string name="label_allergy">Allergy:</string>
+    <string name="allergy_metals">Metals</string>
+    <string name="allergy_dyes">Dyes</string>
+    <string name="allergy_fragrance">Fragrance</string>
+    <string name="allergy_preservatives">Preservatives</string>
+    <string name="allergy_none">None</string>
+
+    <string name="label_skin_tones">Skin Tones:</string>
+    <string name="skin_tones_fair">Fair</string>
+    <string name="skin_tones_light">Light</string>
+    <string name="skin_tones_light_medium">Light Medium</string>
+    <string name="skin_tones_medium">Medium</string>
+    <string name="skin_tones_medium_deep">Medium Deep</string>
+    <string name="skin_tones_deep">Deep</string>
+
+    <string-array name="output_values">
+        <item>Fenty</item>
+        <item>Maybelline</item>
+        <item>Huddah</item>
+        <item>Elline</item>
+        <item>Arimis</item>
+        <item>Nevia</item>
+    </string-array>
+
+    <string name="output_metals_fair">Fenty, Maybelline</string>
+    <string name="output_dyes_fair">Huddah, Maybelline</string>
+    <string name="output_fragrance_fair">Fenty, Elline</string>
+    <string name="output_preservatives_fair">Fenty, Arimis</string>
+    <string name="output_none_fair">Fenty, Nevia</string>
+
+    <string name="output_metals_light">Fenty, Maybelline</string>
+    <string name="output_dyes_light">Huddah, Maybelline</string>
+    <string name="output_fragrance_light">Fenty, Elline</string>
+    <string name="output_preservatives_light">Fenty, Arimis</string>
+    <string name="output_none_light">Fenty, Nevia</string>
+
+    <string name="output_metals_light_medium">Fenty, Maybelline</string>
+    <string name="output_dyes_light_medium">Huddah, Maybelline</string>
+    <string name="output_fragrance_light_medium">Fenty, Elline</string>
+    <string name="output_preservatives_light_medium">Fenty, Arimis</string>
+    <string name="output_none_light_medium">Fenty, Nevia</string>
+
+    <string name="output_metals_medium">Fenty, Maybelline</string>
+    <string name="output_dyes_medium">Huddah, Maybelline</string>
+    <string name="output_fragrance_medium">Fenty, Elline</string>
+    <string name="output_preservatives_medium">Fenty, Arimis</string>
+    <string name="output_none_medium">Fenty, Nevia</string>
+
+    <string name="output_metals_medium_deep">Fenty, Maybelline</string>
+    <string name="output_dyes_medium_deep">Huddah, Maybelline</string>
+    <string name="output_fragrance_medium_deep">Fenty, Elline</string>
+    <string name="output_preservatives_medium_deep">Fenty, Arimis</string>
+    <string name="output_none_medium_deep">Fenty, Nevia</string>
+
+    <string name="output_metals_deep">Fenty, Maybelline</string>
+    <string name="output_dyes_deep">Huddah, Maybelline</string>
+    <string name="output_fragrance_deep">Fenty, Elline</string>
+    <string name="output_preservatives_deep">Fenty, Arimis</string>
+    <string name="output_none_deep">Fenty, Nevia</string>
+
+    <string name="output_default">Fenty, Arimis</string>
+
+
+    <!-- Button text -->
+    <string name="button_text_fenty">Fenty</string>
+    <string name="button_text_maybelline">Maybelline</string>
+    <string name="button_text_huddah">Huddah</string>
+    <string name="button_text_elline">Elline</string>
+    <string name="button_text_arimis">Arimis</string>
+    <string name="button_text_nevia">Nevia</string>
+    <string name="button_text_noty">Noty</string>
+    <string name="button_text_sprayh">Sprayh</string>
+
+    <!-- Error messages -->
+    <string name="error_message_generic">An error occurred. Please try again later.</string>
+    <string name="error_message_no_results">No results found.</string>
+
+    <!-- Success messages -->
+    <string name="success_message_form_submitted">Your form has been submitted successfully!</string>
+
+    <string name="loading_emla">Loading Emla...</string>
+    <string name="loading_better">Loading Better...</string>
+
+    <string name="emla_button_text">Emla</string>
+    <string name="better_button_text">Better</string>
+    <string name="no_data_text">No data available</string>
+
+
+    <string name="activity_main">MyBeautyApp</string>
+    <string name="activity_fenty">Fenty Beauty</string>
+    <string name="activity_maybelline">Maybelline</string>
+    <string name="activity_huddah">Huddah Cosmetics</string>
+    <string name="activity_elline">Elline Cosmetics</string>
+    <string name="activity_arimis">Arimis Beauty</string>
+    <string name="activity_nevia">Nevia Cosmetics</string>
+
+    <!-- Error messages -->
+    <string name="error_title">Error</string>
+    <string name="error_message">An error occurred. Please try again later.</string>
+
+    <!-- Button labels -->
+    <string name="button_label_fenty">Fenty Beauty</string>
+    <string name="button_label_maybelline">Maybelline</string>
+    <string name="button_label_huddah">Huddah Cosmetics</string>
+    <string name="button_label_elline">Elline Cosmetics</string>
+    <string name="button_label_arimis">Arimis Beauty</string>
+    <string name="button_label_nevia">Nevia Cosmetics</string>
+
+
+    <string name="recommendations">Recommendations</string>
+
+
+</resources>
+
+
+
+
+
